@@ -1,0 +1,22 @@
+{
+  "name": "separate-by-character",
+  "version": "1.0.0",
+  "description": "\"\"\u001b[DSeparates the values in a string by a character given by the user, by default it is separated by commas, and returns a list with the values. Gets rid of the specified character and the first space after each element.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osbaldomartinez20/Separate-By-Character.git"
+  },
+  "keywords": [
+    "separate"
+  ],
+  "author": "osbaldomartinez20",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osbaldomartinez20/Separate-By-Character/issues"
+  },
+  "homepage": "https://github.com/osbaldomartinez20/Separate-By-Character#readme"
+}
