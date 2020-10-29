@@ -9,15 +9,15 @@ const separate = require('separate-by-character');
 let first = 'hello, my good, friend.'
 
 let firstTest = separate.separateByCharacter(first);
-//firstTest = [ 'hello', 'my good', 'friend' ]
+### //firstTest = [ 'hello', 'my good', 'friend' ]
 
 let second = 'I do not know. Maybe I know.. Hello.';
 
 let secondTest = separate.separateByCharacter(second, '.');
-//secondTest = [ 'I do not know', 'Maybe I know', '', 'Hello' ]
+### //secondTest = [ 'I do not know', 'Maybe I know', '', 'Hello' ]
 
 let third = 'I love;; semicolons;;';
 
 let thirdTest = separate.separateByCharacter(third, ';;');
-//Because the paramater for character has a length longer than 1, it defaults to ','
-//So thirdTest = [ 'I love;; semicolons;;' ]
+### //Because the paramater for character has a length longer than 1, it defaults to ','
+### //So thirdTest = [ 'I love;; semicolons;;' ]
