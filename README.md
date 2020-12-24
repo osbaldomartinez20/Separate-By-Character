@@ -4,6 +4,7 @@ Separates the values in a string by a character given by the user, by default it
 
 ## Examples
 
+### Separate Samples
 const separate = require('separate-by-character');
 
 let first = 'hello, my good, friend.'
@@ -22,4 +23,10 @@ let third = 'I love;; semicolons;;';
 
 let thirdTest = separate.separateByCharacter(third, ';;');
 
-//Because the paramater for character has a length longer than 1, it defaults to ',', So thirdTest = [ 'I love;; semicolons;;' ]
+//Because the paramater for character has a length longer than 1, it defaults to ',' 
+
+//So thirdTest = [ 'I love;; semicolons;;' ]
+
+### Combine Samples
+const combine = require('separate-by-character');
+
